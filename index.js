@@ -19,7 +19,7 @@ export default class Ripple extends PureComponent {
   };
 
   static propTypes = {
-    ...Animated.View.propTypes,
+    ...Animated.ViewPropTypes,
     ...TouchableWithoutFeedback.propTypes,
 
     rippleColor: PropTypes.string,
